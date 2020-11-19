@@ -1,0 +1,10 @@
+C:\Users\Fwiffo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" F:\Programming\CPP\containers
+-- git Version: v1.5.2-348aa2c9
+-- Version: 1.5.2
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/Programming/CPP/containers/cmake-build-debug

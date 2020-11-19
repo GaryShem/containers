@@ -1,0 +1,43 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: F:/Programming/CPP/containers/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_7fb41\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_7fb41.dir\build.make /nologo -L                  CMakeFiles\cmTC_7fb41.dir\build
+Building C object CMakeFiles/cmTC_7fb41.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @C:\Users\Fwiffo\AppData\Local\Temp\nmC262.tmp
+CheckIncludeFile.c
+F:\Programming\CPP\containers\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_O3_FLAG failed with the following output:
+Change Dir: F:/Programming/CPP/containers/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_30679\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_30679.dir\build.make /nologo -L                  CMakeFiles\cmTC_30679.dir\build
+Building CXX object CMakeFiles/cmTC_30679.dir/src.cxx.obj
+	C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @C:\Users\Fwiffo\AppData\Local\Temp\nm84C5.tmp
+cl : Command line warning D9002 : ignoring unknown option '-O3'
+src.cxx
+Linking CXX executable cmTC_30679.exe
+	C:\Users\Fwiffo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_30679.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_30679.dir\objects1.rsp @C:\Users\Fwiffo\AppData\Local\Temp\nm86C9.tmp
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_CXX03_FLAG failed with the following output:
+Change Dir: F:/Programming/CPP/containers/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_42856\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_42856.dir\build.make /nologo -L                  CMakeFiles\cmTC_42856.dir\build
+Building CXX object CMakeFiles/cmTC_42856.dir/src.cxx.obj
+	C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @C:\Users\Fwiffo\AppData\Local\Temp\nm890A.tmp
+cl : Command line warning D9002 : ignoring unknown option '-std=c++03'
+src.cxx
+Linking CXX executable cmTC_42856.exe
+	C:\Users\Fwiffo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_42856.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_42856.dir\objects1.rsp @C:\Users\Fwiffo\AppData\Local\Temp\nm894A.tmp
+
+
+Source file was:
+int main() { return 0; }
